@@ -1,0 +1,29 @@
+{
+  "class_name": "INFOTECH-101",
+  "groups": [
+    {
+      "group_id": "G1",
+      "members": ["Alice", "Ben", "Cathy", "Daniel", "Emma"]
+    },
+    {
+      "group_id": "G2",
+      "members": ["Frank", "Grace", "Henry", "Ivy", "Jack", "Kelly"]
+    },
+    {
+      "group_id": "G3",
+      "members": ["Leo", "Mia", "Noah", "Olivia", "Peter"]
+    },
+    {
+      "group_id": "G4",
+      "members": ["Queenie", "Ryan", "Sophia", "Thomas", "Uma", "Victor"]
+    },
+    {
+      "group_id": "G5",
+      "members": ["Wendy", "Xavier", "Yuki", "Zach", "Aiden"]
+    },
+    {
+      "group_id": "G6",
+      "members": ["Bella", "Caleb", "Daisy", "Ethan", "Fiona", "Gavin"]
+    }
+  ]
+}

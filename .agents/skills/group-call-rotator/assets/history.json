@@ -1,0 +1,100 @@
+{
+  "group_call_counts": {
+    "G1": 1,
+    "G2": 1,
+    "G3": 1,
+    "G4": 1,
+    "G5": 0,
+    "G6": 1
+  },
+  "student_call_counts": {
+    "G1": {"Alice": 0, "Ben": 0, "Cathy": 0, "Daniel": 1, "Emma": 0},
+    "G2": {"Frank": 0, "Grace": 0, "Henry": 0, "Ivy": 0, "Jack": 1, "Kelly": 0},
+    "G3": {"Leo": 0, "Mia": 0, "Noah": 0, "Olivia": 0, "Peter": 1},
+    "G4": {"Queenie": 0, "Ryan": 0, "Sophia": 0, "Thomas": 1, "Uma": 0, "Victor": 0},
+    "G5": {"Aiden": 0, "Wendy": 0, "Xavier": 0, "Yuki": 0, "Zach": 0},
+    "G6": {"Bella": 1, "Caleb": 0, "Daisy": 0, "Ethan": 0, "Fiona": 0, "Gavin": 0}
+  },
+  "call_log": [
+    {
+      "round": 1,
+      "timestamp": "2026-04-24T15:13:12",
+      "selected_groups": [
+        {
+          "group_id": "G4",
+          "selected_students": [
+            "Thomas"
+          ]
+        }
+      ],
+      "excluded_groups": [],
+      "absent_students": [],
+      "students_per_group": 1,
+      "num_groups": 1,
+      "seed": null
+    },
+    {
+      "round": 2,
+      "timestamp": "2026-04-24T15:13:25",
+      "selected_groups": [
+        {
+          "group_id": "G2",
+          "selected_students": [
+            "Jack"
+          ]
+        }
+      ],
+      "excluded_groups": [],
+      "absent_students": [],
+      "students_per_group": 1,
+      "num_groups": 1,
+      "seed": null
+    },
+    {
+      "round": 3,
+      "timestamp": "2026-04-24T15:13:30",
+      "selected_groups": [
+        {
+          "group_id": "G6",
+          "selected_students": [
+            "Bella"
+          ]
+        },
+        {
+          "group_id": "G1",
+          "selected_students": [
+            "Daniel"
+          ]
+        }
+      ],
+      "excluded_groups": [
+        "G2",
+        "G5"
+      ],
+      "absent_students": [
+        "Ben",
+        "Peter"
+      ],
+      "students_per_group": 1,
+      "num_groups": 2,
+      "seed": 42
+    },
+    {
+      "round": 4,
+      "timestamp": "2026-04-24T15:35:27",
+      "selected_groups": [
+        {
+          "group_id": "G3",
+          "selected_students": [
+            "Peter"
+          ]
+        }
+      ],
+      "excluded_groups": [],
+      "absent_students": [],
+      "students_per_group": 1,
+      "num_groups": 1,
+      "seed": null
+    }
+  ]
+}
